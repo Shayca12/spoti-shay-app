@@ -1,0 +1,12 @@
+[project]
+name = "pycommon"
+version = "0.1.0"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "pydantic>=2",
+  "python-jose[cryptography]>=3.3",
+  "passlib[bcrypt]>=1.7",
+  "prometheus-client>=0.20",
+  "requests>=2.31",
+]

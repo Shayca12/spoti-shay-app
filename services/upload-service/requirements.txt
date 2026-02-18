@@ -1,0 +1,6 @@
+-e ../../shared/libs/pycommon
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+pytest
